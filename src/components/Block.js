@@ -2,15 +2,13 @@ import React from "react";
 
 function Block() {
   return (
-    <div className="container">
+    <div className="container mt-4">
       <div className="row">
         <div
           className="col-sm"
           style={{
             height: "400px",
             backgroundColor: "#757064",
-            borderRadius: "10px",
-            boxShadow: "1px 1px 3px 3px #696356",
           }}
         ></div>
         <div
@@ -18,8 +16,6 @@ function Block() {
           style={{
             height: "400px",
             backgroundColor: "white",
-            borderRadius: "10px",
-            boxShadow: "1px 1px 3px 3px #c4baa3",
           }}
         >
           <p
@@ -28,6 +24,7 @@ function Block() {
               fontFamily: "Lato, sans-serif",
               color: "#9c833e",
               fontSize: "30px",
+              marginTop:"80px"
             }}
           >
             My name is Gaurav Joshi
@@ -40,6 +37,33 @@ function Block() {
             }}
           >
             I am a MERN Stack Developer
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              fontFamily: "Lato, sans-serif",
+              color: "#9c833e",
+            }}
+          >
+            By Education i am an Electrical Engineer By Profession i am a Web Developer
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              fontFamily: "Lato, sans-serif",
+              color: "#9c833e",
+            }}
+          >
+            I am so passionate about coding and new cutting edge technologies
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              fontFamily: "Lato, sans-serif",
+              color: "#9c833e",
+            }}
+          >
+            I love node js Ecosystem and i have build my carrer around it 
           </p>
         </div>
       </div>
