@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Block from "./Block";
 
 function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Block />
     </div>
   );
 }
