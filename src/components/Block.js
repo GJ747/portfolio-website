@@ -2,7 +2,7 @@ import React from "react";
 
 function Block() {
   return (
-    <div className="container mt-4">
+    <div className="container mt-2">
       <div className="row">
         <div
           className="col-sm"
