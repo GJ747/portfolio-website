@@ -22,16 +22,42 @@ function Navbar() {
     font-size: 25px;
     color: white;
     font-family: "Oswald", sans-serif;
+    @media (max-width: 768px) {
+      margin-left: 20px;
+    }
   `;
+
+  const Div = styled.div`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `;
+
+  const DivM = styled.div`
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
   return (
-    <div className=" d-flex">
+    <div>
+      <Div>
+        <div className=" d-flex">
+          <Logo>Gaurav Joshi</Logo>
+          <div style={{ marginLeft: "100px" }}></div>
+          <Lik>Home</Lik>
+          <Lik>Experience</Lik>
+          <Lik>Projects</Lik>
+          <Lik>Resume</Lik>
+          <Lik>About Me</Lik>
+        </div>
+      </Div>
+      <DivM>
+      <div className=" d-flex justify-content-between">
       <Logo>Gaurav Joshi</Logo>
-      <div style={{ marginLeft: "100px" }}></div>
-      <Lik>Home</Lik>
-      <Lik>Experience</Lik>
-      <Lik>Projects</Lik>
-      <Lik>Resume</Lik>
-      <Lik>About Me</Lik>
+      <i class="bi bi-filter" style={{fontSize:"40px",color:"white",marginRight:"20px"}}></i>
+      </div>
+      </DivM>
     </div>
   );
 }
