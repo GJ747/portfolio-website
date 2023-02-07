@@ -5,14 +5,14 @@ function Card(props) {
     const Div = styled.div`
         border: solid #825507 2px;
         border-radius: 10px;
-        height: 100px;
-        width: 150px;
+        height: 160px;
+        width: 250px;
     `
 
     const Img = styled.img`
-      width: 150px;
-      height: 100px;
-      padding: 10px;
+      width: 240px;
+      height: 140px;
+      padding: 15px;
     `
   return (
     <Div>

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 function Navbar() {
+  const [hide, setHide] = useState(false);
   const Lik = styled(Link)`
     text-decoration: none;
     color: black;
@@ -34,29 +35,52 @@ function Navbar() {
   `;
 
   const DivM = styled.div`
-  @media (min-width: 768px) {
-    display: none;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `;
+
+  const hideHandler =()=>{
+    setHide(!hide)
   }
-`;
 
   return (
     <div>
       <Div>
         <div className=" d-flex">
-          <Logo>Gaurav Joshi</Logo>
+          <Logo to="/">Gaurav Joshi</Logo>
           <div style={{ marginLeft: "100px" }}></div>
-          <Lik>Home</Lik>
-          <Lik>Experience</Lik>
+          <Lik to="/">Home</Lik>
+          <Lik to="/experience">Experience</Lik>
           <Lik>Projects</Lik>
           <Lik>Resume</Lik>
           <Lik>About Me</Lik>
         </div>
       </Div>
       <DivM>
-      <div className=" d-flex justify-content-between">
-      <Logo>Gaurav Joshi</Logo>
-      <i class="bi bi-filter" style={{fontSize:"40px",color:"white",marginRight:"20px"}}></i>
-      </div>
+        <div className=" d-flex justify-content-between">
+          <Logo to="/">Gaurav Joshi</Logo>
+          <i
+            onClick={hideHandler}
+            class="bi bi-filter"
+            style={{ fontSize: "40px", color: "white", marginRight: "20px" }}
+          ></i>
+        </div>
+       { hide && <div>
+        <p style={{ textAlign: "center" }}>
+          <Lik to="/experience">Experience</Lik>
+        </p>
+        <p style={{ textAlign: "center" }}>
+          <Lik>Projects</Lik>
+        </p>
+        <p style={{ textAlign: "center" }}>
+          <Lik>Resume</Lik>
+        </p>
+        <p style={{ textAlign: "center" }}>
+          <Lik>About Me</Lik>
+        </p>
+        </div>
+}
       </DivM>
     </div>
   );

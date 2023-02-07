@@ -11,6 +11,7 @@ import Python from "../images/python.webp";
 import ReactLogo from "../images/React-Logo-1-300x289.png";
 import ReactNative from "../images/reactNative.png";
 import Ubuntu from "../images/Ubuntu-Emblem.png";
+import Jquery from "../images/jquery-ar21.png"
 
 function Block2() {
   const iKnow = [
@@ -21,6 +22,7 @@ function Block2() {
     Postman,
     ReactLogo,
     Ubuntu,
+    Jquery,
   ];
 
   const learning = [
@@ -40,7 +42,7 @@ function Block2() {
       >
         <div className="row">
           {iKnow.map((x) => (
-            <div className="col-sm d-flex justify-content-center" style={{marginBottom : "20px"}}>
+            <div className="col-sm-3 d-flex justify-content-center" style={{marginBottom : "20px"}}>
               <Card img={x} />
             </div>
           ))}
@@ -58,7 +60,7 @@ function Block2() {
       >
         <div className="row">
           {learning.map((x) => (
-            <div className="col-sm d-flex justify-content-center" style={{marginBottom : "20px"}}>
+            <div className="col-sm-3 d-flex justify-content-center" style={{marginBottom : "20px"}}>
               <Card img={x} />
             </div>
           ))}
