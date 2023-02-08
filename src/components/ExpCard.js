@@ -7,6 +7,7 @@ function ExpCard(props) {
     border-radius: 10px;
     width: 100%;
     padding: 30px;
+    margin-bottom: 20px;
   `;
 
   const P = styled.p`

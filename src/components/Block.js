@@ -2,6 +2,7 @@ import React from "react";
 import MyImg from "../images/gj.jpg"
 import MyImgM from '../images/gjm.png'
 import styled from "styled-components";
+import { Typewriter } from 'react-simple-typewriter'
 
 function Block() {
 
@@ -54,7 +55,7 @@ function Block() {
               marginTop:"80px"
             }}
           >
-            My name is Gaurav Joshi
+            <Typewriter words={["My name is Gaurav Joshi"]} cursor={true} cursorBlinking={true}/>
           </p>
           <p
             style={{
