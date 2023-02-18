@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.07787389.css",
+    "main.js": "/portfolio-website/static/js/main.1dfbf324.js",
+    "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
+    "static/media/gjm.png": "/portfolio-website/static/media/gjm.6138fc1eb478c97e05e6.png",
+    "static/media/gj.jpg": "/portfolio-website/static/media/gj.eb7b6e8fd665c449f3d1.jpg",
+    "static/media/gjAbout.jpg": "/portfolio-website/static/media/gjAbout.5412247c766d7833895d.jpg",
+    "static/media/MySQL-Logo.png": "/portfolio-website/static/media/MySQL-Logo.2f2132d4838335ce808e.png",
+    "static/media/jquery-ar21.png": "/portfolio-website/static/media/jquery-ar21.70376e3bf2da028fd6c5.png",
+    "static/media/React-Logo-1-300x289.png": "/portfolio-website/static/media/React-Logo-1-300x289.c4f430c362c11456748d.png",
+    "static/media/Ubuntu-Emblem.png": "/portfolio-website/static/media/Ubuntu-Emblem.43a5925974546e19065f.png",
+    "static/media/python.webp": "/portfolio-website/static/media/python.ff4186300b523ba85b20.webp",
+    "static/media/MongoDB_Logo.svg.png": "/portfolio-website/static/media/MongoDB_Logo.svg.7d39697513ea9da04da5.png",
+    "static/media/figma.webp": "/portfolio-website/static/media/figma.099256e5ec34ab510f0c.webp",
+    "static/media/Node.js_logo.svg": "/portfolio-website/static/media/Node.js_logo.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.07787389.css.map": "/portfolio-website/static/css/main.07787389.css.map",
+    "main.1dfbf324.js.map": "/portfolio-website/static/js/main.1dfbf324.js.map",
+    "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07787389.css",
+    "static/js/main.1dfbf324.js"
+  ]
+}
