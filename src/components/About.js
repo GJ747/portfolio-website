@@ -12,7 +12,7 @@ function About() {
     margintop: 20px;
     padding-top: 80px;
     border-radius: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     @media (max-width: 600px) {
       width: 340px;
     }
@@ -24,8 +24,8 @@ function About() {
     margin: auto;
     border-top-right-radius: 280px;
     border-top-left-radius: 280px;
-    border-bottom-right-radius: 80px;
-    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
   `;
 
   const Img = styled.img`
@@ -74,7 +74,7 @@ function About() {
             style={{
               textAlign: "center",
               color: "white",
-              paddingBottom: "80px",
+              paddingBottom: "30px",
             }}
           >
             In march 2020 we have faced Corona pendemic and we have to stay

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ExpCard from "./ExpCard";
-import styled from "styled-components";
+
 
 function Experience() {
   const data = [
@@ -20,7 +20,7 @@ function Experience() {
     },
     {
       title : "MERN stack Developer",
-      company : "New Xtented Technology",
+      company : "New Xtended Technology",
       duration : "Aug-2022 to Present",
       description : "After polishing my coding skills by freelancing, I have joined New Xtented Technology in Bhilwara.Here I get the chance to work with experienced Java, Dot Net, and Android developers. Here I work as a MERN stack developer. Here I have learned how to build projects with hybrid technologies. "
     },

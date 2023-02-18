@@ -17,7 +17,6 @@ function Navbar() {
     text-decoration: none;
     color: black;
     margin-left: 50px;
-    margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -49,11 +48,11 @@ function Navbar() {
       <Div>
         <div className=" d-flex">
           <Logo to="/">Gaurav Joshi</Logo>
-          <div style={{ marginLeft: "100px" }}></div>
+          <div style={{ marginLeft: "180px" }}></div>
           <Lik to="/">Home</Lik>
           <Lik to="/experience">Experience</Lik>
-          <Lik>Projects</Lik>
-          <Lik>Resume</Lik>
+          <Lik to="/project">Projects</Lik>
+          <Lik to="/resume">Resume</Lik>
           <Lik to="/about" >About Me</Lik>
         </div>
       </Div>
@@ -71,10 +70,10 @@ function Navbar() {
           <Lik to="/experience">Experience</Lik>
         </p>
         <p style={{ textAlign: "center" }}>
-          <Lik>Projects</Lik>
+          <Lik to="/project">Projects</Lik>
         </p>
         <p style={{ textAlign: "center" }}>
-          <Lik>Resume</Lik>
+          <Lik to="/resume">Resume</Lik>
         </p>
         <p style={{ textAlign: "center" }}>
           <Lik to="/about">About Me</Lik>
