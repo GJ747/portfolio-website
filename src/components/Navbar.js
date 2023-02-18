@@ -54,7 +54,7 @@ function Navbar() {
           <Lik to="/experience">Experience</Lik>
           <Lik>Projects</Lik>
           <Lik>Resume</Lik>
-          <Lik>About Me</Lik>
+          <Lik to="/about" >About Me</Lik>
         </div>
       </Div>
       <DivM>
@@ -77,7 +77,7 @@ function Navbar() {
           <Lik>Resume</Lik>
         </p>
         <p style={{ textAlign: "center" }}>
-          <Lik>About Me</Lik>
+          <Lik to="/about">About Me</Lik>
         </p>
         </div>
 }

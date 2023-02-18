@@ -18,10 +18,10 @@ function Block2() {
   const iKnow = [
     NodeJs,
     Express,
-    Bootstrap,
+    ReactLogo,
     MongoDb,
     Postman,
-    ReactLogo,
+    Bootstrap,
     Ubuntu,
     Jquery,
   ];
