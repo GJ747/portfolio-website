@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Resume from "./components/Resume";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </div>
