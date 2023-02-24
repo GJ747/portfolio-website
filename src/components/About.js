@@ -80,7 +80,7 @@ function About() {
             In march 2020 we have faced Corona pendemic and we have to stay
             inside our home for more than 3 months, in this period of time i
             dont have to do anything so i have start learning coding and buy
-            some courses on udemy. when i found my self love in programming i
+            some courses on udemy. when i found my self in love with programming i
             decided to choose web developer as career, now its been about one
             and half year i am working as professional web developer
           </p>

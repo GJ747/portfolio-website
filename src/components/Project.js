@@ -8,7 +8,7 @@ function Project() {
       title: "Color textile",
       category: "Accounting, inventory management, reports",
       discription:
-        "This web application was developed for the textile industry; it can create masters of company, spares, groups, and yarn; generate POs and purchases; and manage inventory of raw materials and spare parts. it can create reports of all provided data",
+        "This web application was developed for the textile industry, it can create masters of company, spares, groups, and yarn, generate POs and purchases, and manage inventory of raw materials and spare parts. it can create reports of all provided data",
     },
     {
         title: "Ashwamegh",
@@ -31,7 +31,7 @@ function Project() {
       <Navbar />
      
       <div className="container">
-      <p style={{color:"white", textAlign:"center",marginTop:"20px"}}>In my career, I get the chance to work on so many websites and web applications; here are some of my biggest projects so far.</p>
+      <p style={{color:"white", textAlign:"center",marginTop:"20px"}}>In my career, I get the chance to work on so many websites and web applications, here are some of my biggest projects so far.</p>
         {pro.map(x=><ProCard title={x.title} category={x.category} discription={x.discription}/>)}
       </div>
     </div>
